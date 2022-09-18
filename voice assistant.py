@@ -19,8 +19,8 @@ engine.setProperty('voice',voices[0].id)
 
 def speak(audio):
     '''
-    Function for the program to
-    make it to speak anything.
+    Function for the program enabling
+    it to speak.
     '''
     engine.say(audio)
     engine.runAndWait()
